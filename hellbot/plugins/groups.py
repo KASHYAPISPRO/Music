@@ -31,7 +31,7 @@ async def addchannel(client: hellbot, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "Hêllẞø† Music"
+        user.first_name =  "Vc Music"
     try:
         await USER.join_chat(invitelink)
         await USER.send_message(message.chat.id,"<b><i>Okay!! Let's start music now?</b></i>")
