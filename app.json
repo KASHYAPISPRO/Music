@@ -1,9 +1,9 @@
 {
     "name": "HellBot Music",
-    "logo": "https://te.legra.ph/file/2a24a198476d4abf505da.jpg",
+    "logo": "https://telegra.ph/file/7ac419b51ff2b4a3402ab.jpg",
     "description": "A telegram voice chat music player officially from The HellBot.",
     "keywords": ["music", "voice chat", "telegram", "pyrogram", "pytgcalls", "hellbot"],
-    "repository": "https://github.com/HellBoy-OP/Music",
+    "repository": "https://github.com/rahulkashyap830764/Music",
     "stack": "container",
     "env": {
         "HELLBOT_SESSION": {
