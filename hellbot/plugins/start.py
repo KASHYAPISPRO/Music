@@ -11,7 +11,7 @@ from ..helper.miscs import clog, get_file_id
 
 
 GROUPS = get_collections("GROUPS")
-BOT_PIC = "https://te.legra.ph/file/2a24a198476d4abf505da.jpg"
+BOT_PIC = "https://telegra.ph/file/7ac419b51ff2b4a3402ab.jpg"
 START_TIME = datetime.datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
 TIME_DURATION_UNITS = (
@@ -38,7 +38,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=BOT_PIC,
-        caption=f"<b><i>Hello there!! \nI'm a Telegram voice chat music player by @Its_Hellbot. Enjoy my advanced features along with a simple and sexy interface</b></i>",
+        caption=f"<b><i>Hello there!! \nI'm a Telegram voice chat music player by @OkVaiOkok. Enjoy my advanced features along with a simple and sexy interface</b></i>",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -53,10 +53,10 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "Channel 🍀", url=f"https://t.me/its_hellbot"
+                        "Channel 🍀", url=f"https://t.me/KASHYAPDABIO"
                     ),
                     InlineKeyboardButton(
-                        "Source Code", url="https://github.com/The-HellBot/Music"
+                        "Source Code", url="https://github.com/rahulkashyap830764/Music"
                     ),
                 ],
                 [
